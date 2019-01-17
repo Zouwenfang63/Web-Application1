@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      CSS/HTML Workshop with Privateaser
+    </title>
+    <style type="text/css">
+      h2:hover{
+        color:darkorange;
+      }
+      input:hover{
+        border-color:orangered;
+      }
+      button:hover{
+        border-color:tomato;
+      }
+    </style>
+  </head>
+  <body text=00000000 style="background:url(3.jpg) no-repeat; background-size:100% 100%;" >
+    <div style="height: 150px;"></div>
+    <div id="bar" style="width:800px;height: 50px; margin:0 auto;"></div>
+        <h2><marquee direction=left>Compute Price</marquee></h2> 
+    </div> 
+    <div id="bar" style="width:1000px;height: 50px; margin:0 auto;">
+        <input class="input-name" type="text" placeholder="Please input the bar name:" style="border-style:none;background-color:transparent;width: 280px;height: 30px;font-size: 20px;font-style:italic"/>
+        <input class="js-name" type="text" placeholder="Bar name" style="width: 200px;height: 30px;font-size: 20px; font-style: oblique;font-weight:bold"/>
+        <input class="js-price-by-hour" type="number" placeholder="Price by hour" style="width: 200px;height: 30px;font-size: 20px;font-style: oblique;font-weight:bold"/>
+        <input class="js-price-by-person" type="number" placeholder="Price by person" style="width: 200px;height: 30px;font-size: 20px;font-style: oblique;font-weight:bold"/></div>
+    <div id="booker" style="width:1000px;height: 50px; margin:0 auto;">
+        <input class="input-name" type="text" placeholder="Please input the booker name:" style="border-style:none;background-color:transparent;width: 280px;height: 30px;font-size: 20px;font-style:italic"/>
+      <input class="js-name" type="text" placeholder="Booker name" style="width: 200px;height: 30px;font-size: 20px;font-style: oblique;font-weight:bold"/>
+      <input class="js-time" type="number" placeholder="Time in h" style="width: 200px;height: 30px;font-size: 20px;font-style: oblique;font-weight:bold"/>
+      <input class="js-persons" type="number" placeholder="Persons" style="width: 200px;height: 30px;font-size: 20px;font-style: oblique;font-weight:bold"/>
+      <input class="js-option" type="checkbox" placeholder="Deductible option"/></div> 
+    <div style="width:230px;height: 50px; margin:0 auto;">
+      <button id="compute" style="width: 200px;height: 30px;font-size: 20px;font-style:unset;;font-weight:bold">Compute</button>
+    </div>
+    <marquee direction="up" behavior="slide"><div id="actors" style="width:200px;height: 200px; margin:0 auto;"></div></marquee>
+    <script src="privateaser.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
